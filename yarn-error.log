@@ -1,0 +1,49 @@
+Arguments: 
+  E:\Program Files\nodejs\node.exe E:\Program Files (x86)\Yarn\bin\yarn.js add express spotify-web-api-node bodyParser
+
+PATH: 
+  C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Bhagat Singh\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\VMware\VMware Workstation\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;E:\Program Files\nodejs;E:\MinGW\bin;E:\Program Files\Java\jre1.8.0_251\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;E:\php-7.4.9;C:\ProgramData\ComposerSetup\bin;E:\Program Files (x86)\vagrant\bin;C:\Users\Bhagat Singh\AppData\Roaming\Composer\vendor\bin;E:\Program Files (x86);C:\Program Files\MySQL\MySQL Router 8.0\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin;E:\Program Files (x86)\Yarn\bin;C:\Windows\System32;C:\Program Files\Git\cmd;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;E:\anaconda3;E:\anaconda3\Scripts;C:\Program Files (x86)\Java\jdk1.8.0_281\bin;E:\Program Files\flutter\bin;E:\Program Files\gradle-6.8.1\bin;E:\Program Files\gradle-6.8.1;E:\Android;C:\Users\Bhagat Singh\AppData\Local\Programs\Python\Python39\Scripts;C:\Users\Bhagat Singh\AppData\Local\Programs\Python\Python39;C:\Program Files\MySQL\MySQL Shell 8.0\bin;C:\Users\Bhagat Singh\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Bhagat Singh\AppData\Roaming\npm;C:\Users\Bhagat Singh\AppData\Local\Programs\Microsoft VS Code Insiders\bin;E:\Program Files\heroku\bin;C:\Users\Bhagat Singh\AppData\Roaming\Composer\vendor\bin;C:\Users\Bhagat Singh\AppData\Local\Yarn\bin;C:\Users\Bhagat Singh\AppData\Local\Microsoft\WindowsApps;E:\snap\bin
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  12.16.2
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/bodyParser: Not found
+      at Request.params.callback [as _callback] (E:\Program Files (x86)\Yarn\lib\cli.js:66097:18)
+      at Request.self.callback (E:\Program Files (x86)\Yarn\lib\cli.js:140749:22)
+      at Request.emit (events.js:310:20)
+      at Request.<anonymous> (E:\Program Files (x86)\Yarn\lib\cli.js:141721:10)
+      at Request.emit (events.js:310:20)
+      at IncomingMessage.<anonymous> (E:\Program Files (x86)\Yarn\lib\cli.js:141643:12)
+      at Object.onceWrapper (events.js:416:28)
+      at IncomingMessage.emit (events.js:322:22)
+      at endReadableNT (_stream_readable.js:1187:12)
+      at processTicksAndRejections (internal/process/task_queues.js:84:21)
+
+npm manifest: 
+  {
+    "name": "spotify-backend",
+    "version": "1.0.0",
+    "description": "clone of spotify",
+    "main": "app.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+      "spotify"
+    ],
+    "author": "Bhagat Singh",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
